@@ -22,5 +22,7 @@ and to see the parent of each commit
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+the result is one merged branch with all the commit messages from both branches
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?S
