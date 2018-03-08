@@ -13,8 +13,7 @@ What is the benefit of having a copy of the last known state of the remote store
 	It's possible to work offline
 	
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-
-    Fill in your answer here
+	I've tried collaborating with Google Docs or Dropbox before and it was really not that good, sometimes changes went missing or new added files disappeared. At the beginning it is easier because you don't have to set up anything but in the end it's much more comfortable working with git
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
