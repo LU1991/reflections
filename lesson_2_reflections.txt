@@ -25,4 +25,10 @@ the diagram the way we do?
 the result is one merged branch with all the commit messages from both branches
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?S
+manually?
+
+- it saves you a lot of time, because you don't have to compare every single file
+and manually paste the new code in the other document or delete code, that isn't 
+needed anymore
+- sometimes git doesn't know which code to keep so you have to do exactly the 
+above mentioned manually
