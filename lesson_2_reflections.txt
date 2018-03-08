@@ -1,34 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
-An empty git repository is created. It needs to be done because the command
-creates a .git folder in which meta data like the commits are stored
+	An empty git repository is created. It needs to be done because the command creates a .git folder in which meta data like the commits are stored
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-Files in the staging area aren't commited yet, so nobody else but you can see 
-them
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Not all the files from the working directory are in the staging area. Since they are not in the repository yet, only you can see them and maybe add or remove some before comitting
 
-How can you use the staging area to make sure you have one commit per logical
-change?
-Add only the files that have to do with the logic to the staging area
+How can you use the staging area to make sure you have one commit per logical change?
+	Add only the files that have to do with the logic to the staging area
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-When adding a new feature 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When adding a new feature, fixing a bug or trying out something new
 
 How do the diagrams help you visualize the branch structure?
-It makes it easier to see which commits are reachable and which are not
-and to see the parent of each commit
+	It makes it easier to see which commits are reachable and which are not and to see the parent of each commit
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is one merged branch with all the commit messages from both branches
 
-the result is one merged branch with all the commit messages from both branches
-
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
-
-- it saves you a lot of time, because you don't have to compare every single file
-and manually paste the new code in the other document or delete code, that isn't 
-needed anymore
-- sometimes git doesn't know which code to keep so you have to do exactly the 
-above mentioned manually
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	- It saves a lot of time, because you don't have to compare every single file and manually paste the new code in the other document or delete code, that isn't needed any more
+	- Sometimes git doesn't know which code to keep so you still have merge manually and probably need to talk to the person, that made the conflicting changes
