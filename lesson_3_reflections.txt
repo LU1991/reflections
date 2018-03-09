@@ -16,5 +16,5 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 	I've tried collaborating with Google Docs or Dropbox before and it was really not that good, sometimes changes went missing or new added files disappeared. At the beginning it is easier because you don't have to set up anything but in the end it's much more comfortable working with git
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-
-    Fill in your answer here
+	- When you're not sure if the change makes much sense and want feedback
+	- To ensure that you always have a working version of the code in the master branch
